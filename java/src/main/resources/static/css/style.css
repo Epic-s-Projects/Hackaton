@@ -33,7 +33,7 @@ header .logo{
     text-decoration: none;
     font-weight: bolder;
     font-size: 25px;
-    color: #333;
+    color: #fffbd6;
 }
 
 header .navbar ul{
@@ -49,12 +49,12 @@ header .navbar ul li a{
     text-decoration: none;
     font-size: 20px;
     padding: 20px;
-    color: #333;
+    color: #393528;
     display: block;
 }
 
 header .navbar ul li a:hover{
-    background: #c71f1f;
+    background: #e3dca4;
     color: #fff;
 }
 
@@ -203,7 +203,7 @@ footer{
     transition: all 0.4s;
 }
 .footer-list .footer-link:hover{
-    color: #f7a945;
+    color: #e3dca4;
     text-decoration: none;
 }
 #footer_subscribe{
@@ -226,7 +226,7 @@ footer{
     width: 100%;
 }
 #input_group button{
-    background-color: #e6332d;
+    background-color: #e3dca4;
     border: none;
     color: #f5f5f5;
     padding: 0px 1.25rem;

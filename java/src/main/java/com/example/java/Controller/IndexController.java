@@ -13,4 +13,12 @@ public class IndexController {
     public String acessoLogin() {
         return "cadastro/cadastro_login";
     }
+    @GetMapping("/suporte")
+    public String acessoSuporte() {
+        return "suporte/suporte";
+    }
+    @GetMapping("/contato")
+    public String acessoContato() {
+        return "contato/contato";
+    }
 }
