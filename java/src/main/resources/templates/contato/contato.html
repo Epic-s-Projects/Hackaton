@@ -3,9 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Página de Contato</title>
+    <link rel="stylesheet" th:href="@{css/style.css}">
+    <link rel="stylesheet" th:href="@{css/style-contato.css}">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
-    <h1>página de contato</h1>
+    <div th:insert="~{fragmentos/header :: header}"></div>
+    <div class="container">
+		<div class="contact-box">
+			<div class="left"></div>
+			<div class="right">
+				<h2>Página de Contato</h2>
+				<input type="text" class="field" placeholder="Seu nome">
+				<input type="text" class="field" placeholder="Seu email">
+				<input type="text" class="field" placeholder="Telefone">
+				<textarea placeholder="Mensagem" class="field"></textarea>
+				<button class="btn">Enviar</button>
+			</div>
+		</div>
+	</div>
+    <div th:insert="~{fragmentos/footer :: footer}"></div>   
 </body>
 </html>
