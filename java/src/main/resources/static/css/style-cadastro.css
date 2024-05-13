@@ -32,7 +32,7 @@ body {
 }
 
 .container button{
-    background-color: #d43e3e;
+    background-color: #756120;
     color: #fff;
     font-size: 12px;
     padding: 10px 45px;
@@ -180,7 +180,7 @@ body {
 
 .container.active .toggle-left{
     transform: translateX(0);
-    background: linear-gradient(to left, #a56325, #dd7251);
+    background: linear-gradient(to left, #d3ca93, #be855c);
 }
 
 .toggle-right{
